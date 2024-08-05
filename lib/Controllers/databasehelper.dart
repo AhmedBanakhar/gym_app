@@ -11,9 +11,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 class DatabaseHelper {
   // static String serverUrl = "http://10.0.2.2:8000/api/L";
   // static String serverURL = "http://10.0.2.2:8000/api/v";
-  static String serverUrl = "http://192.168.120.69:8000/api/L";
-  static String serverURL = "http://192.168.120.69:8000/api/v";
-  String serverimage = "http://192.168.120.69:8000/storage/";
+  static String serverUrl = "http://192.168.28.69:8000/api/L";
+  static String serverURL = "http://192.168.28.69:8000/api/v";
+  String serverimage = "http://192.168.28.69:8000/storage/";
   // static String serverUrl = "http://192.168.8.177:8000/api/L";
   // static String serverURL = "http://192.168.8.177:8000/api/v";
   // String serverimage = "http://192.168.8.177:8000/storage/";
@@ -398,7 +398,7 @@ class DatabaseHelper {
       final data = json.decode(response.body);
       print(data);
     } else {
-      throw " ";
+      //throw " ";
     }
     // Map mapValue;
     // mapValue = json.decode(response);
